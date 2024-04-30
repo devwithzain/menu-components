@@ -1,3 +1,5 @@
+// Top Side Menu Constants
+
 export const menu = {
     open: {
         width: "480rem",

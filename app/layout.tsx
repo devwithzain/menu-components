@@ -1,8 +1,8 @@
 import "@styles/globals.css";
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-	title: "Animated Component",
-	description: "Animated Component",
+	title: "Top Side Menu",
+	description: "Top Side Menu",
 };
 export default function RootLayout({
 	children,
