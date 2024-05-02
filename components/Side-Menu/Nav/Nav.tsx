@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Nav() {
 	return (
-		<div className="flex flex-col justify-between px-[40px] pt-[100px] pb-[50px] h-full">
-			<div className="flex gap-[10px] flex-col">
+		<div className="flex flex-col justify-between pr-[80px] pl-[40px] pt-[80px] pb-[40px] h-full">
+			<div className="flex gap-[15px] flex-col">
 				{links.map((link, i) => {
 					const { title, href } = link;
 					return (
@@ -21,7 +21,7 @@ export default function Nav() {
 								exit="exit">
 								<Link
 									href={href}
-									className="text-black text-[46px]">
+									className="text-black text-[46px] sm:text-[40px] xm:text-[36px] leading-none">
 									{title}
 								</Link>
 							</motion.div>
@@ -29,7 +29,7 @@ export default function Nav() {
 					);
 				})}
 			</div>
-			<motion.div className="flex flex-wrap">
+			<motion.div className="flex flex-wrap mt-[40px]">
 				{footerLinks.map((link, i) => {
 					const { title, href } = link;
 					return (

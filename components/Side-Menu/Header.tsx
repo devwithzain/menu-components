@@ -11,9 +11,9 @@ export default function Header() {
 	return (
 		<div className="fixed right-[50px] top-[50px]">
 			<motion.div
-				className="w-[480px] h-[650px] bg-[#c9fd74] rounded-[25px] relative"
+				className="w-[480px] sm:w-[330px] xm:w-[300px] h-[650px] bg-[#c9fd74] rounded-[25px] relative"
 				variants={menu}
-				animate={isActive ? "open" : "closed"}
+				animate={isActive ? "mobileOpen" : "closed"}
 				initial="closed">
 				<AnimatePresence>{isActive && <Nav />}</AnimatePresence>
 			</motion.div>
