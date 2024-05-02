@@ -8,4 +8,4 @@
 
 # Preview
 
-<img width="100%" height="100%" src="https://github.com/ZainAliSiddiqui/Side-Navbar-Component/assets/131141179/2debf4ff-ce6c-494f-90d1-d9010faec455" />
+<img width="100%" height="100%" src="https://github.com/devwithzain/menu-components/assets/131141179/e7baf9a1-fd5c-4d1f-bf15-1e80af775fc1" />
