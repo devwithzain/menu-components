@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
-import { footerLinks, links } from "@constants";
-import { perspective, slideIn } from "@motion";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { perspective, slideIn } from "@motion";
+import { footerLinks, links } from "@constants";
 
 export default function Nav() {
 	return (
