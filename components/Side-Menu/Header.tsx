@@ -9,9 +9,9 @@ export default function Header() {
 	const [isActive, setIsActive] = useState(false);
 
 	return (
-		<div className="fixed right-[50rem] top-[50rem]">
+		<div className="fixed right-[50px] top-[50px]">
 			<motion.div
-				className="w-[480rem] h-[650rem] bg-[#c9fd74] rounded-[25rem] relative"
+				className="w-[480px] h-[650px] bg-[#c9fd74] rounded-[25px] relative"
 				variants={menu}
 				animate={isActive ? "open" : "closed"}
 				initial="closed">
