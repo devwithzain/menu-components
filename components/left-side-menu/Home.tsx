@@ -22,7 +22,7 @@ export default function Home() {
 					className="w-[60px] h-[60px] rounded-full bg-[#455ce9] cursor-pointer flex items-center justify-center relative">
 					<div
 						className={`w-[50%] h-[1.2px] bg-white absolute top-[50%] ${
-							!isActive && "top-[47%]"
+							!isActive && "top-[45%]"
 						} transform -translate-x-1/2 -translate-y-1/2`}
 						style={{
 							transform: isActive ? "rotate(45deg)" : "none",
@@ -31,7 +31,7 @@ export default function Home() {
 					/>
 					<div
 						className={`w-[50%] h-[1.2px] bg-white absolute top-[50%] ${
-							!isActive && "top-[53%]"
+							!isActive && "top-[55%]"
 						} transform -translate-x-1/2 -translate-y-1/2`}
 						style={{
 							transform: isActive ? "rotate(-45deg)" : "none",
