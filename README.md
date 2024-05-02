@@ -10,7 +10,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/devwithzain/parallax-components.git
+   git clone https://github.com/devwithzain/menu-components
    ```
 2. Install NPM packages
    ```sh
