@@ -6,9 +6,9 @@ export default function App() {
 			{/* SideHome Render */}
 			{/* <SideHome /> */}
 			{/* LeftSideHome Render */}
-			<LeftSideHome />
+			{/* <LeftSideHome /> */}
 			{/* ResponsiveHome Render */}
-			{/* <ResponsiveHome /> */}
+			<ResponsiveHome />
 		</>
 	);
 }
