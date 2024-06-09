@@ -1,9 +1,14 @@
-import { Header } from "@components";
+import { LeftSideHome, ResponsiveHome, SideHome } from "@components";
 
 export default function App() {
 	return (
 		<>
-			<Header />
+			{/* SideHome Render */}
+			{/* <SideHome /> */}
+			{/* LeftSideHome Render */}
+			<LeftSideHome />
+			{/* ResponsiveHome Render */}
+			{/* <ResponsiveHome /> */}
 		</>
 	);
 }
