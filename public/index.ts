@@ -1,1 +1,1 @@
-export { default as responsiveHero } from './hero.jpg';
+export { default as centerMenu } from './hero1.jpg';

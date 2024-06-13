@@ -6,6 +6,14 @@
 	src: url("../fonts/trial-sans.otf");
 	font-family: TrialSans;
 }
+@font-face {
+	src: url("../fonts/NeueMontreal.otf");
+	font-family: NeueMontreal;
+}
+@font-face {
+	src: url("../fonts/CanopeeRegular.otf");
+	font-family: CanopeeRegular;
+}
 
 .button {
 	position: absolute;
