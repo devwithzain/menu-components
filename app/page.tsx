@@ -1,4 +1,9 @@
-import { LeftSideHome, ResponsiveHome, SideHome } from "@components";
+import {
+	CenterMenu,
+	LeftSideHome,
+	ResponsiveHome,
+	SideHome,
+} from "@components";
 
 export default function App() {
 	return (
@@ -8,7 +13,9 @@ export default function App() {
 			{/* LeftSideHome Render */}
 			{/* <LeftSideHome /> */}
 			{/* ResponsiveHome Render */}
-			<ResponsiveHome />
+			{/* <ResponsiveHome /> */}
+			{/* CenterMenu Render */}
+			<CenterMenu />
 		</>
 	);
 }
