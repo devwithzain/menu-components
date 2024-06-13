@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       fontFamily: {
         TrialSans: ['TrialSans', 'sans-serif'],
-        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        NeueMontreal: ['NeueMontreal', 'sans-serif'],
+        CanopeeRegular: ['CanopeeRegular', 'sans-serif'],
       },
       screens: {
         xm: { max: "400px" },
